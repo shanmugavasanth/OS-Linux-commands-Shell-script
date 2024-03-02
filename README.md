@@ -711,18 +711,30 @@ The $$ is  5564
 
 ls file1
 ## OUTPUT
+```
+file1  file2  file3
+```
 
 echo $?
 ## OUTPUT
+```
+0
+```
 
 ./one
 bash: ./one: Permission denied
 echo $?
 ## OUTPUT 
+```
+126
+```
 
 abcd
 echo $?
  ## OUTPUT
+ ```
+127
+```
 
 # mis-using string comparisons
 
